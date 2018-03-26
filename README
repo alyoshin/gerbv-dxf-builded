@@ -1,0 +1,7 @@
+To fix library search error:
+	gerbv: error while loading shared libraries: libgerbv.so.1: cannot open
+	shared object file: No such file or directory
+
+Run command:
+	sudo ldconfig
+
